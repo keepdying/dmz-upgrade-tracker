@@ -1,0 +1,145 @@
+{
+    "stash" : {
+        "wallet0" : {
+            "name" : "Unlock Wallet",
+            "desc" : "Unlock Wallet",
+            "type" : "stash",
+            "isCrown" : false,
+            "rep" : {
+                "bm" : 2
+            },
+            "items" : ["cash100k"],
+            "need" : [1],
+            "current" : [0]
+        },
+    
+        "wallet1" : {
+            "name" : "Wallet Expansion 1",
+            "desc" : "Expand the wallet's capacity by $150 000 (250K)",
+            "type" : "stash", 
+            "isCrown" : false,
+            "rep" : {
+                "wl" : 4
+            },
+            "items" : ["liquor", "aged", "wine"],
+            "need" : [10, 2, 6],
+            "current" : [0, 0, 0]
+        },
+    
+        "wallet2" : {
+            "name" : "Wallet Expansion 2",
+            "desc" : "Expand the wallet's capacity by an additional $150 000 (400K)",
+            "type" : "stash", 
+            "isCrown" : false,
+            "rep" : {
+                "wl" : 5
+            },
+            "items" : ["thumbDrive", "encryptedHdd", "laptop", "hardDrive"],
+            "need" : [4, 2, 4, 8],
+            "current" : [0, 0, 0, 0]
+        },
+    
+        "wallet3" : {
+            "name" : "Wallet Expansion 3",
+            "desc" : "Expand the wallet's capacity by an additional $100 000 (500K)",
+            "type" : "stash",
+            "isCrown" : false,
+            "rep" : {
+                "wl" : 6
+            },
+            "items" : ["gpu"],
+            "need" : [2],
+            "current" : [0]
+        },
+    
+        "wallet4" : {
+            "name" : "Wallet Expansion 4",
+            "desc" : "Expand the wallet's capacity by an additional $100 000 (600K)",
+            "type" : "stash",
+            "isCrown" : false,
+            "rep" : {
+                "wl" : 8
+            },
+            "items" : ["vintage", "japaneseLiquor"],
+            "need" : [6, 16],
+            "current" : [0, 0]
+        },
+    
+        "wallet5" : {
+            "name" : "Wallet Expansion 5",
+            "desc" : "Expand the wallet's capacity by an additional $100 000 (700K)",
+            "type" : "stash",
+            "isCrown" : false,
+            "rep" : {
+                "wl" : 10
+            },
+            "items" : ["bar", "skull"],
+            "need" : [10, 6],
+            "current" : [0, 0]
+        },
+    
+        "wallet1C" : {
+            "name" : "Wallet Expansion 1 (Crown)",
+            "desc" : "Expand the wallet's capacity by an additional $100 000",
+            "type" : "stash",
+            "isCrown" : true,
+            "rep" : {
+                "wl" : 5
+            },
+            "items" : ["oil", "battery", "drill"],
+            "need" : [3, 5, 2],
+            "current" : [0, 0, 0]
+        },
+    
+        "wallet2C" : {
+            "name" : "Wallet Expansion 2 (Crown)",
+            "desc" : "Expand the wallet's capacity by an additional $50 000 (+150K)",
+            "type" : "stash",
+            "isCrown" : true,
+            "rep" : {
+                "crown" : 4
+            },
+            "items" : ["carb", "etape", "jumper"],
+            "need" : [3, 8, 6],
+            "current" : [0, 0, 0]
+        },
+    
+        "wallet3C" : {
+            "name" : "Wallet Expansion 3 (Crown)",
+            "desc" : "Expand the wallet's capacity by an additional $50 000 (+200K)",
+            "type" : "stash",
+            "isCrown" : true,
+            "rep" : {
+                "crown" : 5
+            },
+            "items" : ["screwdriver", "cash500k", "encryptedHdd", "aqLaptop"],
+            "need" : [10, 1, 4, 5],
+            "current" : [0, 0, 0, 0]
+        },
+    
+        "wallet4C" : {
+            "name" : "Wallet Expansion 4 (Crown)",
+            "desc" : "Expand the wallet's capacity by an additional $50 000 (+250K)",
+            "type" : "stash",
+            "isCrown" : true,
+            "rep" : {
+                "crown" : 8
+            },
+            "items" : ["console", "vcr", "gpu", "encryptedUsb"],
+            "need" : [10, 10, 4, 6],
+            "current" : [0, 0, 0, 0]
+        },
+        "wallet5C" : {
+            "name" : "Wallet Expansion 5 (Crown)",
+            "desc" : "Expand the wallet's capacity by an additional $50 000 (+300K)",
+            "type" : "stash",
+            "isCrown" : true,
+            "rep" : {
+                "crown" : 5
+            },
+            "items" : ["oldFilm", "lighter", "component"],
+            "need" : [20, 30, 40],
+            "current" : [0, 0, 0]
+        }
+    }
+}
